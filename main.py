@@ -137,6 +137,10 @@ zobraz_maticu(dvojrozmerne_pole)
 #U9
 print("uloha 9")
 pocet = 1
+
+with open("belko20.txt",'r+') as belko20:
+    belko20.truncate(0)
+
 while True:
     s = open("belko20.txt", "a")
     s.write(str(pocet) + '\n')
