@@ -108,15 +108,19 @@ input("Enter................")
 
 #U6
 print("uloha 6")
-def sum(y,x, array):
+def sum(array):
     vysledok = 0
-    for i in range(y, x):
-        vysledok = vysledok + array[i]
-    return vysledok
+    for i in range(4, int(y) + 1):
+        x = i + array[i]
+        vysledok += x
+        print(i,'+',array[i],'=', x, '\n')
+         
+    print('\n Vysledok spolu :',vysledok)
+        
+sum(belko)        
 
-vysledok = sum(4, int(x), belko)
 
-print("dostali sme: ", vysledok)
+# vysledok = sum(4, int(x), belko)
 
 #U7
 print("uloha 7")
@@ -143,10 +147,10 @@ with open("belko20.txt",'r+') as belko20:
 
 while True:
     s = open("belko20.txt", "a")
-    s.write(str(pocet) + '\n')
+    s.write(str(pocet) + ' ')
     s.close()
-    print(pocet)
+    print(pocet, end=" ")
     pocet += 1
     if(int(pocet) == 21 or int(pocet) > x):
-        print("program ukonceny ")
+        print("\n program ukonceny ")
         break
