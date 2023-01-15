@@ -1,0 +1,90 @@
+# Príklad 33 v etape uprava = 90% (príprava)
+
+"""
+V premenovanom súbore priezvisko.py, v programovom režime prostredia IDLE,...
+realizujte úlohy:
+
+0/ Rozdeľte priestor programového módu pomocnými čiarami na časti
+1-Import ,2-Parametre, 3-Funkcie,  4-Hlavný program.
+
+1/ Vytvorte priradenie y = zadané číslo  
+
+2/ Vložte text:  U2
+Vytvorte 2 polia  pre 50+Y prvkov nazvané priezvisko (malé písmená
+bez diakritiky) a pole nazvane meno,
+obe polia naplňte hodnotou Y, zobrazte polia,
+Vložte príkaz  input("Enter") .........................................
+
+3/ Vložte text:  U3
+Generujte Y náhodných čísel v intervale 1-Y a uložte ich do 1. poľa priezvisko
+na pozíciu 1-Y
+-generované čísla vypisujte do riadku, 
+-po vygenerovaní 8. čísla nastavte pomocou input zastavenie programu
+(bude čakať na zadanie Enter pre pokračovanie behu programu)
+-prvokom s indexom 0 priraďte hodnotu typu string (vaše reálne priezvisko),
+-na koniec poľa pridajte hodnotu 5000 (funkcia append)
+ (zobrazte celé pole),
+Vložte príkaz  input("Enter") .........................................
+
+4/ Vložte text:  U4
+Načítajte Y údajov (body študentov) zo súboru  body250a50.txt ,
+zobrazujte ich v riadkoch a súčasne vložte  do 2. vytvoreného poľa (meno)
+na pozíciu indexov 1-Y , následne:
+-prvoku[0] priraďte hodnotu typu float  3.1415, 
+-prvky s indexom väčším ako Y ostanú nezmenené), 
+-Ak je hodnota meno[5] v rozpätí 45-60 vypíšte
+'Hodnota prvku 5: ',hodnota, ' je v rozsahu 45-60',
+ak nie vypíšte 'Hodnota je mimo rozsah' 
+Vložte príkaz  input("Enter") .........................................
+
+5/ Vložte text:  U5
+Vypočítajte parametre s priradením do zvolenej premennej (výsledky
+zobrazujte pod seba s krátkym komentárom):
+-súčet hodnôt na pozícii 1-Y v poli  priezvisko,
+-počet hodnôt na pozícii 1-Y v poli  priezvisko,
+-priemer hodnôt na pozícii 1-Y v poli  priezvisko,
+-ďalší priemer hodnôt na pozícii 5-17 v 1. poli  priezvisko,
+-sčítajte párne hodnoty z poľa priezvisko do premennej priezvisko2_parne
+-zobrazte premennú s popisom. 
+-z poľa meno vytvorte pole typu tuple s názvom meno_tuple (zobrazte pole),
+-nahraďte prvok poľa meno_tuple s indexom 3  hodnotou 500 (zobrazte pole),
+-vložte príkaz  input() 
+
+
+6/ Vytvorte funkciu ktorá spočíta prvky s indexmi od do v zadanom poli, 
+-zavolajte funkciu v programe s parametrami od 4 do Y v poli priezvisko,
+-zobrazte výslednú premennú (s popisom)
+
+7/ Vložte do programu pripravené dvojrozmerné pole
+a priradením zmeňte prvok 1_2 na hodnotu 18 (zobrazte pole)
+
+dvojrozmerne_pole = [[18, 21, 23], [14, 15, 63], [27, 81, 19],[37, 81, 79]]
+
+8/ Vytvorte funkciu zobraz_maticu -ktorá po zavolaní zobrazí vložené
+dvojrozmerné pole, (zavolajte zadanú funkciu),
+
+9/ Vložte do programu cyklus ponocou   while True:
+v ňom generujte čísle v intervele 1-Y,
+-čísla vypisujte v riadku ,
+-a súčasne ukladajte do suboru priezvisko20.txt ,
+cyklus sa ukončí po vygenerovaní čísla 20 s výpisom textu
+"Program ukončený po 20". 
+
+
+!!! Tuto časť vypracujte keď budete mať pripravenú funkciu  graf !!!
+
+10/ Zavolajte funkciu graf umiestnenú v súbore nazvanom priezvisko_funkcie 
+(pripravte si ho dopredu),
+funkcia zobrazí graf zo súboru data-graf.txt ( presne Y hodnôt z daného súboru),
+funkciu volajte príkazom  priezvisko_funkcie.graf(názov súboru, počet hodnôt).
+
+
+Vypracovaný súbor priezvisko.py (aj súbor priezvisko_funkcie.py)
+odošlite v stanovenom čase na edupage.
+
+"""
+#--------------Vypracovanie-------------------------------------------------- 
+import random       # ponechajte nezmenené
+random.seed(33)     # ponechajte nezmenené
+
+y =
